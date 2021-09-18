@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= pageTitle %>
+    </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h3><a href="/prove02/">Product List</a></h3>
+            <h3><a href="/prove02/data/addProduct">Add Product</a></h3>
+        </nav>
+    </header>
+    <main>
+        <form action="addProduct" method="POST">
+            <p><input type="text" name="title" placeholder="Title"></p>
+            <p><input type="text" name="description" placeholder="Description"></p>
+            <p><input type="text" name="price" placeholder="Price"></p>
+            <p><input type="text" name="rating" placeholder="Rating"></p>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
