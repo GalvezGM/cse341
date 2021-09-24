@@ -1,0 +1,32 @@
+[
+    {
+        "url": "https://m.media-amazon.com/images/I/61sqIH8QW2L._AC_UL320_.jpg",
+        "price": 399.99,
+        "name": "Intel Core i7-8700K Desktop Processor 6 Cores up to 4.7GHz Turbo Unlocked LGA1151 300 Series 95W"
+    },
+    { 
+        "url": "https://m.media-amazon.com/images/I/71Tor75VsGL._AC_UL320_.jpg",
+        "price": 344.00,
+        "name": "Intel BX80684I99900KF Intel Core i9-9900KF Desktop Processor 8 Cores up to 5.0 GHz Turbo Unlocked Without Processor"
+    },
+    {
+        "url": "https://m.media-amazon.com/images/I/71Qsjp8X2hL._AC_UL320_.jpg",
+        "price": 1428.12,
+        "name": "Intel Core i9-9980XE Extreme Edition Processor 18 Cores up to 4.4GHz Turbo Unlocked LGA2066 X299 Series 165W Processors"
+    },
+    {
+        "url": "https://m.media-amazon.com/images/I/712kBEVHeXL._AC_UY218_.jpg",
+        "price": 329.99,
+        "name": "Intel Core i9-9900K Desktop Processor 8 Cores up to 5.0GHz Unlocked LGA1151 300 Series 95W"
+    },
+    {
+        "url": "https://m.media-amazon.com/images/I/61vGQNUEsGL._AC_UY218_.jpg",
+        "price": 272.66,
+        "name": "AMD Ryzen 5 5600X 6-core, 12-Thread Unlocked Desktop Processor with Wraith Stealth Cooler"
+    },
+    {
+        "url": "https://m.media-amazon.com/images/I/61DYLoyNRWL._AC_UY218_.jpg",
+        "price": 393.99,
+        "name": "AMD Ryzen 7 5800X 8-core, 16-Thread Unlocked Desktop Processor" 
+    }
+]

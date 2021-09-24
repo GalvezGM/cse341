@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../../includes/header.ejs %>
+</head>
+
+<body>
+  <% include ../../includes/nav.ejs %>
+
+  <% cpus.forEach (cpu => { %>
+    <div class="row">
+        <div class="col-m">
+          <div class="jumbotron jumbotron-fluid itemContainer">
+            <div class="container">
+              <h2 class="display-4"><%= cpu.name %></h2>
+              <img src="<%= cpu.url %>" style='max-width: 200px'>
+              <p>$<%= cpu.price %></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+ <% }) %>
+</body>
+</html>

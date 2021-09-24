@@ -25,6 +25,7 @@ const ta03Routes = require('./routes/teamRoutes/ta03');
 const ta04Routes = require('./routes/teamRoutes/ta04');
 
 const prove02Routes = require('./routes/proveRoutes/prove02');
+const prove03Routes = require('./routes/proveRoutes/prove03');
 
 
 app
@@ -43,6 +44,7 @@ app
   .use('/ta04', ta04Routes)
 
   .use('/prove02', prove02Routes)
+  .use('/prove03', prove03Routes)
   
   .get('/', (req, res, next) => {
     // This is the primary index, always handled last.
